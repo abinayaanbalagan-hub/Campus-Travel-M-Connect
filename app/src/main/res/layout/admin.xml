@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <Button
+            android:id="@+id/busdetails"
+            android:layout_width="120sp"
+            android:layout_height="100sp"
+            android:text="Bus Details"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/navyblue"
+            />
+
+        <Button
+            android:id="@+id/driverdetails"
+            android:layout_width="120sp"
+            android:layout_height="100sp"
+            android:layout_below="@+id/busdetails"
+            android:text="Driver Details"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/navyblue"
+            />
+
+        <Button
+            android:id="@+id/studentdetails"
+            android:layout_width="120sp"
+            android:layout_height="100sp"
+            android:layout_below="@+id/driverdetails"
+            android:text="Student Details"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/navyblue"
+            />
+
+        <Button
+            android:id="@+id/payment"
+            android:layout_width="120sp"
+            android:layout_height="100sp"
+            android:layout_below="@+id/studentdetails"
+            android:text="Payment"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/navyblue"
+            />
+
+        <Button
+            android:id="@+id/report"
+            android:layout_width="120sp"
+            android:layout_height="100sp"
+            android:layout_below="@+id/payment"
+            android:text="Report"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/navyblue"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

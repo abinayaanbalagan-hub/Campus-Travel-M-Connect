@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDriverActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/driverNameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Driver Name"
+            android:textSize="16sp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/driverName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/driverNameTxt"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Driver Name"/>
+
+        <TextView
+            android:id="@+id/licenseNumberTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="License Number"
+            android:textSize="16sp"
+            android:textColor="@color/blue"
+            android:layout_below="@id/driverName"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/licenseNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/licenseNumberTxt"
+            android:layout_marginTop="10dp"
+            android:hint="Enter License Number"/>
+
+
+
+        <TextView
+            android:id="@+id/ageTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth"
+            android:textSize="16sp"
+            android:textColor="@color/blue"
+            android:layout_below="@id/licenseNumber"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/DoB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ageTxt"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Date of Birth(dd/mm/yyyy)"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/contactNumberTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Number"
+            android:textSize="16sp"
+            android:textColor="@color/blue"
+            android:layout_below="@id/DoB"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/contactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contactNumberTxt"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Contact Number"
+            android:inputType="phone"/>
+
+        <TextView
+            android:id="@+id/emailTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Id"
+            android:textSize="16sp"
+            android:textColor="@color/blue"
+            android:layout_below="@id/contactNumber"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailTxt"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Email Id"/>
+
+        <TextView
+            android:id="@+id/passwordTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="16sp"
+            android:textColor="@color/blue"
+            android:layout_below="@id/email"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passwordTxt"
+            android:layout_marginTop="10dp"
+            android:hint="Click to generate password"/>
+
+        <Button
+            android:id="@+id/generatePasswordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="Generate Password" />
+
+        <Button
+            android:id="@+id/addDriverButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/generatePasswordButton"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="Add Driver"
+            android:backgroundTint="@color/red"/>
+    </RelativeLayout>
+</ScrollView>

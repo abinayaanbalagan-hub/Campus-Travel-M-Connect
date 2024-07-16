@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Header with College Name -->
+    <TextView
+        android:id="@+id/collegeNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A.V.C. College of Engineering"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="16dp"
+        android:gravity="top" />
+
+    <!-- Campus travel M-Connect -->
+    <TextView
+        android:id="@+id/campusConnectTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campus travel M-Connect"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+
+    <!-- Bus Image -->
+    <ImageView
+        android:id="@+id/busImageView"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bus"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:scaleType="fitCenter"/>
+
+
+    <!-- Register as Student Button -->
+    <Button
+        android:id="@+id/registerStudentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Student"
+
+        android:textColor="@android:color/white"
+        android:backgroundTint="#1976D2"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:padding="12dp" />
+
+    <!-- Login TextView -->
+    <TextView
+        android:id="@+id/loginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have already registered? Click login"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp" />
+</LinearLayout>

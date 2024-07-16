@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="edit_text_bg" />
+    <drawable name="rounded_button_bg" />
+    <drawable name="background_border" />
+</resources>

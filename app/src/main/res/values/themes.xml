@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary branding color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Dark variant of the primary color -->
+        <item name="colorPrimaryDark">@color/red</item>
+        <!-- Accent color used for UI elements -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Customize other theme attributes as needed -->
+    </style>
+
+    <color name="colorPrimary">#B2E98F</color>
+    <color name="colorPrimaryDark">#CE4C43</color>
+    <color name="colorAccent">#A54F7B</color>
+    <color name="red">#DB2A1D</color>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+
+
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="8dp"
+        android:background="@drawable/id_background">
+
+    <TextView
+        android:id="@+id/collegeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AVC College of Engineering"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus Pass ID"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/collegeName"
+        android:layout_marginBottom="10dp"
+        android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/studentImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="Student Image"
+            android:layout_below="@+id/pass"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/id_background"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/epassDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentImage"
+        android:textSize="16sp"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
+</RelativeLayout>

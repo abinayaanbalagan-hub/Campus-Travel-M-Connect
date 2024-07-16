@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAzeC4gYgP4cINTG7nlDgXnHBnCULZ0q38" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DriverActivity" />
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".RegisterStudentActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".Bus_Details" />
+        <activity android:name=".MappickerActivity" />
+        <activity android:name=".Student_Main" />
+        <activity android:name=".Add_Student" />
+        <activity android:name=".Student_Home" />
+        <activity android:name=".epassactivity" />
+        <activity android:name=".admitStudent" />
+        <activity android:name=".AddDriverActivity" />
+        <activity android:name=".Change_password" />
+        <activity android:name=".AddPaymentActivity" />
+        <activity android:name=".DriverReportActivity" />
+        <activity android:name=".BusReportActivity" />
+        <activity android:name=".StudentReportActivity" />
+        <activity android:name=".ReportActivity" />
+    </application>
+
+</manifest>

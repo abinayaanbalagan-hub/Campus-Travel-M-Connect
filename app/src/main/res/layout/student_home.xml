@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/toolbar"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:src="@drawable/bus"
+            android:layout_marginLeft="100dp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageButton
+            android:id="@+id/menuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="end|center_vertical"
+            android:src="@drawable/ic_menu"
+
+        />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="30dp"
+        >
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/image1layout"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@color/maroon"
+                android:src="@drawable/applypass"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply Pass"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/image2layout"
+            android:orientation="vertical"
+            android:layout_below="@+id/image1layout">
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@color/maroon"
+                android:src="@drawable/b1"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Track Location"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/image3layout"
+            android:orientation="vertical"
+            android:layout_below="@+id/image2layout">
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@color/maroon"
+                android:src="@drawable/b2"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E Pass"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

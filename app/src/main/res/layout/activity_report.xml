@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <Button
+            android:id="@+id/driver_report"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:text="Driver Report"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/navyblue"
+            />
+
+        <Button
+            android:id="@+id/bus_report"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_below="@+id/driver_report"
+            android:text="Bus Report"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/navyblue"
+            />
+
+        <Button
+            android:id="@+id/student_report"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_below="@+id/bus_report"
+            android:text="Student Report"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/navyblue"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

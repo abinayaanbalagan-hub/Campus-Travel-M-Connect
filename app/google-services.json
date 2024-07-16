@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "637882928233",
+    "firebase_url": "https://campus-fcf24-default-rtdb.firebaseio.com",
+    "project_id": "campus-fcf24",
+    "storage_bucket": "campus-fcf24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637882928233:android:5f2423a19c68bf642c26f8",
+        "android_client_info": {
+          "package_name": "com.example.bustrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjZ6ezpAFg8b5OMl7TdySvI58AHu5tFZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637882928233:android:88b453f70a85eacd2c26f8",
+        "android_client_info": {
+          "package_name": "com.example.travelconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjZ6ezpAFg8b5OMl7TdySvI58AHu5tFZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admitStudent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_margin="20dp"
+            >
+
+            <TextView
+                android:id="@+id/department_Txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Department"
+                android:textSize="16sp"
+                android:textColor="@color/red"/>
+
+            <Spinner
+                android:id="@+id/department"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/department_Txt"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/degree_Txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/department"
+                android:text="Degree"
+                android:textSize="16sp"
+                android:textColor="@color/red"/>
+
+            <Spinner
+                android:id="@+id/Degree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/degree_Txt"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/BatchTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Degree"
+                android:layout_marginTop="10dp"
+                android:text="Batch"
+                android:textSize="16sp"
+                android:textColor="@color/red"/>
+
+            <LinearLayout
+                android:id="@+id/Batch"
+                android:layout_below="@+id/BatchTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/Batch_Start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <Spinner
+                    android:id="@+id/Batch_End"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_below="@id/degree_Txt"
+                    android:layout_marginTop="10dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Batch"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:textColor="@color/red"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/Name_txt"
+                android:hint="Enter Name"
+                />
+
+            <TextView
+                android:id="@+id/Rollno_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Roll No"
+                android:textColor="@color/red"
+                android:textSize="16sp"
+                android:layout_below="@id/Name"/>
+
+            <EditText
+                android:id="@+id/Rollno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/Rollno_txt"
+                android:hint="Enter Roll No"
+                />
+
+            <TextView
+                android:id="@+id/mail_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Mail Id"
+                android:textColor="@color/red"
+                android:textSize="16sp"
+                android:layout_below="@id/Rollno"/>
+
+            <EditText
+                android:id="@+id/Mailid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/mail_txt"
+                android:hint="Enter Mail Id"
+                />
+            <TextView
+                android:id="@+id/mobiletxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Mobile No"
+                android:textColor="@color/red"
+                android:textSize="16sp"
+                android:layout_below="@id/Mailid"/>
+
+            <EditText
+                android:id="@+id/MobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/mobiletxt"
+                android:hint="Enter Mobile No"
+                />
+
+
+            <Button
+                android:id="@+id/Add_student"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/MobileNo"
+                android:text="Add Student"
+                android:backgroundTint="@color/red"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPaymentActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Payment Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/RollNoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roll No"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/titleTextView"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/RollNoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RollNoLabel"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Roll No"/>
+
+        <TextView
+            android:id="@+id/BatchLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batch"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/RollNoEditText"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/BatchEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/BatchLabel"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Batch"/>
+
+        <TextView
+            android:id="@+id/DepartmentLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/BatchEditText"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/DepartmentEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DepartmentLabel"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Department"/>
+
+        <TextView
+            android:id="@+id/feesLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fees"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/DepartmentEditText"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/feesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/feesLabel"
+            android:layout_marginTop="10dp"
+            android:hint="Enter fees"/>
+
+        <TextView
+            android:id="@+id/BillNoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bill No"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/feesEditText"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/BillNoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/BillNoLabel"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Bill No"/>
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/BillNoEditText"
+            android:layout_marginTop="20dp"
+            android:text="Submit"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>

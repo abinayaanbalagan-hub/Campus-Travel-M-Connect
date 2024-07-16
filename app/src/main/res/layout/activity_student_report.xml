@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Report"
+        android:textSize="24sp"
+        android:textColor="#000080"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Department"
+        android:inputType="text"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="#000080"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/etDepartment"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/llStudentDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/btnSubmit"
+        android:padding="16dp"
+        android:background="#FFFFFF"
+        android:visibility="gone">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPrint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Print"
+        android:background="#000080"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/llStudentDetails"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"/>
+</RelativeLayout>
